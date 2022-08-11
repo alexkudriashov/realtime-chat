@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://62f48af07f22616cf2964c1e--clever-hummingbird-82c24f.netlify.app",
     methods: ["GET", "POST"],
   },
 });
